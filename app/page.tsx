@@ -254,12 +254,12 @@ export default function Home() {
           <div className="text-center mb-14">
             <h3 className="text-4xl font-bold mb-4">Основные направления</h3>
             <p className="text-xl text-slate-600">
-              Выберите услугу, под которую будем вести трафик
+              Основные направления нашей практики
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
+            <div className="relative bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
               <img
                 src="/court.jpg"
                 alt="Судебные споры"
@@ -273,7 +273,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
+            <div className="relative bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
               <img
                 src="/family.jpg"
                 alt="Семейное право"
@@ -287,7 +287,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
+            <div className="relative bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100">
               <img
                 src="/business.jpg"
                 alt="Бизнес и договоры"
@@ -303,7 +303,247 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* Cases / Questions */}
+<section className="py-24 bg-slate-50">
+  <div className="max-w-7xl mx-auto px-6">
 
+    <div className="text-center mb-16">
+      <h3 className="text-4xl font-bold mb-4">
+        Реальные вопросы клиентов
+      </h3>
+
+      <p className="text-xl text-slate-600">
+        С какими ситуациями к нам обращаются чаще всего
+      </p>
+    </div>
+
+    <div className="space-y-8">
+
+      {/* Андрей */}
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+
+        <div className="flex justify-between items-start mb-6">
+
+          {/* Слева: аватар + имя */}
+          <div className="flex items-center gap-3">
+
+            <img
+              src="/avatars/man-1.jpg"
+              alt="Андрей"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+
+            <div>
+              <div className="font-semibold">
+                Андрей
+              </div>
+
+              <div className="text-sm text-slate-500">
+                Семейный спор
+              </div>
+            </div>
+
+          </div>
+
+          {/* Справа: регион */}
+          <div className="text-sm text-slate-500">
+            Москва
+          </div>
+
+        </div>
+
+        <div className="mb-6">
+          <div className="text-sm text-slate-500 mb-2">
+            Вопрос клиента
+          </div>
+
+          <p className="text-base leading-relaxed">
+            Жена подала на развод и требует большую часть имущества.
+            Не понимаю, какие у меня права и как защитить недвижимость.
+          </p>
+        </div>
+
+        <div className="bg-slate-50 rounded-2xl p-5">
+          <div className="text-sm text-slate-500 mb-2">
+            Ответ юриста
+          </div>
+
+          <p className="text-slate-700 leading-relaxed">
+            Мы изучили документы, подготовили позицию по разделу имущества
+            и добились справедливого распределения через суд.
+          </p>
+        </div>
+
+      </div>
+
+      {/* Елена */}
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+
+        <div className="flex justify-between items-start mb-6">
+
+          <div className="flex items-center gap-3">
+
+            <img
+              src="/avatars/woman-1.jpg"
+              alt="Елена"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+
+            <div>
+              <div className="font-semibold">
+                Елена
+              </div>
+
+              <div className="text-sm text-slate-500">
+                Проблемы с банком
+              </div>
+            </div>
+
+          </div>
+
+          <div className="text-sm text-slate-500">
+            Санкт-Петербург
+          </div>
+
+        </div>
+
+        <div className="mb-6">
+          <div className="text-sm text-slate-500 mb-2">
+            Вопрос клиента
+          </div>
+
+          <p className="text-base leading-relaxed">
+            Банк требует выплатить долг с огромными штрафами,
+            начали звонить коллекторы. Что можно сделать?
+          </p>
+        </div>
+
+        <div className="bg-slate-50 rounded-2xl p-5">
+          <div className="text-sm text-slate-500 mb-2">
+            Ответ юриста
+          </div>
+
+          <p className="text-slate-700 leading-relaxed">
+            Провели проверку начислений, снизили сумму требований
+            и помогли остановить давление со стороны взыскателей.
+          </p>
+        </div>
+
+      </div>
+
+      {/* Михаил */}
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+
+        <div className="flex justify-between items-start mb-6">
+
+          <div className="flex items-center gap-3">
+
+            <img
+              src="/avatars/man-2.jpg"
+              alt="Михаил"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+
+            <div>
+              <div className="font-semibold">
+                Михаил
+              </div>
+
+              <div className="text-sm text-slate-500">
+                ДТП
+              </div>
+            </div>
+
+          </div>
+
+          <div className="text-sm text-slate-500">
+            Екатеринбург
+          </div>
+
+        </div>
+
+        <div className="mb-6">
+          <div className="text-sm text-slate-500 mb-2">
+            Вопрос клиента
+          </div>
+
+          <p className="text-base leading-relaxed">
+            Страховая отказала в полной выплате после ДТП.
+            Машина серьёзно повреждена.
+          </p>
+        </div>
+
+        <div className="bg-slate-50 rounded-2xl p-5">
+          <div className="text-sm text-slate-500 mb-2">
+            Ответ юриста
+          </div>
+
+          <p className="text-slate-700 leading-relaxed">
+            Подготовили претензию и взыскали через суд полную сумму
+            страховой выплаты вместе с неустойкой.
+          </p>
+        </div>
+
+      </div>
+
+      {/* Ольга */}
+      <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
+
+        <div className="flex justify-between items-start mb-6">
+
+          <div className="flex items-center gap-3">
+
+            <img
+              src="/avatars/woman-2.jpg"
+              alt="Ольга"
+              className="w-12 h-12 rounded-full object-cover"
+            />
+
+            <div>
+              <div className="font-semibold">
+                Ольга
+              </div>
+
+              <div className="text-sm text-slate-500">
+                Трудовой спор
+              </div>
+            </div>
+
+          </div>
+
+          <div className="text-sm text-slate-500">
+            Казань
+          </div>
+
+        </div>
+
+        <div className="mb-6">
+          <div className="text-sm text-slate-500 mb-2">
+            Вопрос клиента
+          </div>
+
+          <p className="text-base leading-relaxed">
+            Работодатель уволил без выплат и компенсации.
+            Как восстановить свои права?
+          </p>
+        </div>
+
+        <div className="bg-slate-50 rounded-2xl p-5">
+          <div className="text-sm text-slate-500 mb-2">
+            Ответ юриста
+          </div>
+
+          <p className="text-slate-700 leading-relaxed">
+            Подготовили жалобы и исковое заявление,
+            помогли взыскать компенсацию и задолженность по зарплате.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
           <img
