@@ -226,7 +226,7 @@ export default function Home() {
               <div className="text-3xl font-bold mb-2">10+ лет</div>
               <h4 className="text-xl font-semibold mb-2">Опытные юристы</h4>
               <p className="text-slate-600">
-                Работаем только с проверенными специалистами с практикой от 5 лет.
+                Работаем только с проверенными специалистами с практикой от 8 лет.
               </p>
             </div>
 
@@ -242,7 +242,7 @@ export default function Home() {
               <div className="text-3xl font-bold mb-2">5–10 мин</div>
               <h4 className="text-xl font-semibold mb-2">Быстрый отклик</h4>
               <p className="text-slate-600">
-                Свяжемся с вами максимально быстро после заявки.
+                Свяжемся в течение 15 минут и подскажем дальнейшие шаги.
               </p>
             </div>
           </div>
@@ -254,7 +254,7 @@ export default function Home() {
           <div className="text-center mb-14">
             <h3 className="text-4xl font-bold mb-4">Основные направления</h3>
             <p className="text-xl text-slate-600">
-              Основные направления нашей практики
+              Основные направления юридической практики.
             </p>
           </div>
 
@@ -601,7 +601,84 @@ export default function Home() {
           </a>
         </div>
       </section>
+<footer className="bg-slate-50 border-t border-slate-200 py-12">
+  <div className="max-w-7xl mx-auto px-6">
 
+    <div className="grid md:grid-cols-4 gap-10">
+
+      <div>
+        <h3 className="text-3xl font-bold mb-5">
+          Юридическая помощь для людей и бизнеса.
+        </h3>
+
+        <p className="text-slate-600 leading-relaxed mb-8">
+          Работаем по всей России и сопровождаем
+          клиентов до результата.
+        </p>
+      </div>
+
+      <div>
+        <h4 className="text-xl font-semibold mb-5">
+          Сервис
+        </h4>
+
+        <div className="space-y-4 text-slate-600">
+          <p>Как мы работаем</p>
+          <p>Направления</p>
+          <p>Преимущества</p>
+          <p>Отзывы клиентов</p>
+          <p>Частые вопросы</p>
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-xl font-semibold mb-5">
+          Контакты
+        </h4>
+
+        <div className="space-y-4 text-slate-600">
+          <p>8 (800) 600-64-35</p>
+          <p>re.1ead@yandex.ru</p>
+
+          <div>
+            <p>Пн-Пт: 9:00–21:00</p>
+            <p>Сб-Вс: 10:00–18:00</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h4 className="text-xl font-semibold mb-5">
+          Документы
+        </h4>
+
+        <div className="space-y-4">
+
+          <a
+            href="/privacy"
+            className="block text-slate-600 hover:text-black hover:underline transition"
+          >
+            Согласие на обработку персональных данных
+          </a>
+
+          <a
+            href="/agreement"
+            className="block text-slate-600 hover:text-black hover:underline transition"
+          >
+            Пользовательское соглашение
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div className="border-t border-slate-200 mt-14 pt-8 text-slate-500 text-sm">
+      © 2025 ЮристыОнлайн
+    </div>
+
+  </div>
+</footer>
       <div className="fixed bottom-4 left-0 right-0 z-50 px-4 md:hidden">
         <div className="max-w-md mx-auto bg-white/95 backdrop-blur border border-slate-200 rounded-2xl shadow-xl p-3 flex gap-3">
           <a
